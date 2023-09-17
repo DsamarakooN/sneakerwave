@@ -9,7 +9,7 @@ const Nav = () => {
         <nav className='flex justify-between items-center max-container'>   
             <a href='/' className='flex font-semibold font-montserrat leading-normal items-center text-xl text-coral-red ' >
                 <img src={ headerLogo } alt='logo' width={56} height={29} /> 
-                SneakerWaves
+                SneakerWave
             </a>
             <ul className='flex-1 flex justify-center items-center gap-16 max-lg:hidden'>
                 {navLinks.map((item) => (

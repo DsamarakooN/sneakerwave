@@ -1,13 +1,14 @@
 import React from 'react'
 import { navLinks } from '../constants'
 import { hamburger } from '../assets/icons'
+import { headerLogo } from "../assets/images";
 
 const Nav = () => {
   return (
     <header className='padding-x py-8 absolute z-10 w-full'>
         <nav className='flex justify-between items-center max-container'>   
             <a href='/' className='flex font-semibold font-montserrat leading-normal items-center text-xl text-coral-red ' >
-                <img src='/public/logo.svg' alt='logo' width={56} height={29} /> 
+                <img src={ headerLogo } alt='logo' width={56} height={29} /> 
                 SneakerWaves
             </a>
             <ul className='flex-1 flex justify-center items-center gap-16 max-lg:hidden'>

@@ -1,8 +1,34 @@
-# React + Vite
+# SneakerWave
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- This is a website landing page built with React and Tailwind CSS. It uses npm as the package manager, Vite as the build tool, and is deployed on Vercel.
 
-Currently, two official plugins are available:
+![Website screenshot](/public/demo.png "Website screenshot")
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+
+## Live Demo
+
+- The live demo of the website can be accessed [here](https://sneakerwave.vercel.app/) 
+
+## Prerequisites
+
+- Node.js and npm installed on your machine
+
+## Installation
+
+1. Clone the repository: git clone https://github.com/DsamarakooN/sneakerwave.git
+2. Navigate into the project directory and install the dependencies: cd sneakerwave / npm install
+
+## Running the Project
+
+- To run the project in development mode, use the following command: npm run dev
+- The website should be available at `http://localhost:5173/`.
+
+## Deployment
+
+- The project is deployed using [Vercel](https://vercel.com/).
+
+
+
+
+

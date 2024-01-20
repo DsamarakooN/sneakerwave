@@ -26,6 +26,7 @@ export default {
         "coral-red": "#FF6452",
         "slate-gray": "#6D6D6D",
         "pale-blue": "#F5F6FF",
+        "black-400": "1F1F1F",
         "white-400": "rgba(255, 255, 255, 0.80)"
       },
       boxShadow: {
@@ -38,6 +39,12 @@ export default {
       screens: {
         "wide": "1440px"
       }
+    },
+  },
+  variants: {
+    extend: {
+      fill: ['hover'], // Enable hover variants for fill colors
+      stroke: ['hover'], // Enable hover variants for stroke colors
     },
   },
   plugins: [],

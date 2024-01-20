@@ -10,6 +10,9 @@ import shieldTick from './shield-tick.svg'
 import star from './star.svg'
 import truckFast from './truck-fast.svg'
 import twitter from './twitter.svg'
+import search from './search.svg'
+import profile from './profile.svg'
+import cart from './cart.svg'
 
 export {
     arrowRight,
@@ -23,5 +26,8 @@ export {
     shieldTick,
     star,
     truckFast,
-    twitter
+    twitter, 
+    search,
+    profile,
+    cart
 }

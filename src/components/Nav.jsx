@@ -56,7 +56,7 @@ const Nav = () => {
 
                 {/* Navigation Links - shown/hidden based on isNavOpen state */}
                 {isNavOpen && (
-                <ul className='hidden max-lg:flex flex-col absolute top-full bg-gray-300  w-32 p-4 right-16'>
+                <ul className='hidden max-lg:flex flex-col absolute top-full bg-gray-300  w-32 p-4 right-6'>
                     {navLinks.map((item) => (
                     <li key={item.label} className='mb-2'>
                         <a href={item.href} className='text-black-400 hover:text-coral-red'>

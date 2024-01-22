@@ -9,12 +9,12 @@ export default {
       xs: ['12px', '16px'],
       sm: ['14px', '20px'],
       base: ['16px', '19.5px'],
-      lg: ['18px', '21.94px'],
-      xl: ['20px', '24.38px'],
+      lg: ['20px', '21.94px'],
+      xl: ['25px', '29.38px'],
       '2xl': ['24px', '29.26px'],
       '3xl': ['28px', '50px'],
-      '4xl': ['48px', '58px'],
-      '8xl': ['96px', '106px']
+      '4xl': ['49px', '60px'],
+      '8xl': ['84px', '65px']
     },
     extend: {
       fontFamily: {
@@ -27,7 +27,9 @@ export default {
         "slate-gray": "#6D6D6D",
         "pale-blue": "#F5F6FF",
         "black-400": "1F1F1F",
-        "white-400": "rgba(255, 255, 255, 0.80)"
+        "white-400": "rgba(255, 255, 255, 0.80)",
+        "gr-top": "#E39C71",
+        "gr-bottom": "#F4C493",
       },
       boxShadow: {
         '3xl': '0 10px 40px rgba(0, 0, 0, 0.1)'
@@ -37,7 +39,12 @@ export default {
         'card': "url('assets/images/thumbnail-background.svg')",
       },
       screens: {
-        "wide": "1440px"
+        'ms': '320px',  // Mobile small
+        'mm': '375px',  // Mobile medium
+        'ml': '425px',  // Mobile large
+        'tab': '768px',    // Tablet
+        'lap': '1024px',   // Laptop
+        'desktop': '1440px',  // Desktop
       }
     },
   },

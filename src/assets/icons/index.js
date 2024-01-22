@@ -13,6 +13,8 @@ import twitter from './twitter.svg'
 import search from './search.svg'
 import profile from './profile.svg'
 import cart from './cart.svg'
+import arrow1 from './arrow1.svg'
+
 
 export {
     arrowRight,
@@ -29,5 +31,6 @@ export {
     twitter, 
     search,
     profile,
-    cart
+    cart,
+    arrow1
 }

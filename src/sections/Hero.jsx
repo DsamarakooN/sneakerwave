@@ -5,6 +5,7 @@ import Button from "../components/Button";
 import ShoeCard from "../components/ShoeCard";
 import { bigShoe1 } from "../assets/images";
 import { arrowRight } from "../assets/icons";
+import { arrow1 } from "../assets/icons";
 
 const Hero = () => {
   const [bigShoeImg, setBigShoeImg] = useState(bigShoe1);
@@ -12,32 +13,42 @@ const Hero = () => {
   return (
     <section
       id='home'
-      className='w-full mx-auto flex xl:flex-row flex-col justify-center min-h-screen gap-10 max-container'
-    >
-      <div className='relative xl:w-2/5 flex flex-col justify-center items-start w-full  max-xl:padding-x pt-28 ml-16'>
-        <p className='text-xl font-montserrat text-coral-red'>
-          Our Summer collections
+      className='w-full mx-auto flex xl:flex-row flex-col justify-center min-h-screen gap-10 px-16'
+    > 
+      {/* <div className='relative xl:w-2/5 flex flex-col justify-center items-start w-full  max-xl:padding-x pt-24 ml-0'>
+
+        <span className='mt-2 font-palanquin text-8xl  font-bold xl:bg-white text-center rounded-3xl xl:whitespace-nowrap relative z-10 pr-5 pt-[25px] pb-[41px]'>
+        Latest Trendsetters          
+        </span>
+        <span className='font-palanquin text-4xl align-middle font-bold'>        
+          from <span className='text-coral-red inline-block mt-0'>SneakerWave</span>
+        </span>
+        <p className='font-montserrat text-slate-gray text-lg text-justify leading-8 mt-6 mb-14 '>
+        Embrace the latest in style, comfort, and innovation. Our fresh collection offers the best in footwear, 
+        tailored for your dynamic lifestyle.
         </p>
 
-        <h1 className='mt-10 font-palanquin text-8xl max-sm:text-[72px] max-sm:leading-[82px] font-bold'>
-          <span className='xl:bg-white xl:whitespace-nowrap relative z-10 pr-10'>
-            The New Arrival
-          </span>
-          <br />
-          <span className='text-coral-red inline-block mt-3'>Nike</span> Shoes
-        </h1>
-        <p className='font-montserrat text-slate-gray text-lg leading-8 mt-6 mb-14 sm:max-w-sm'>
-          Discover stylish Nike arrivals, quality comfort, and innovation for
-          your active life.
-        </p>
+        <div class="grid grid-cols-2 gap-4">
+          <div>
+            <Button label='Shop Now' iconURL={arrowRight} />
+          </div>
+          <div>
+          <Button
+            label='Learn more'
+            backgroundColor='bg-white'
+            textColor='text-black-400'
+            iconURL={arrow1}
+          />
+          </div>
+        </div>
 
-        <Button label='Shop now' iconURL={arrowRight} />
+        
 
-        <div className='flex justify-start items-start flex-wrap w-full mt-12 gap-16'>
+        <div className='flex justify-start items-start flex-wrap w-full mt-10 gap-14'>
           {statistics.map((stat, index) => (
             <div key={index}>
-              <p className='text-4xl font-palanquin font-bold'>{stat.value}</p>
-              <p className='leading-7 font-montserrat text-slate-gray'>
+              <p className='text-[39px] font-palanquin font-bold'>{stat.value}</p>
+              <p className='text-lg leading-7 font-montserrat text-slate-gray'>
                 {stat.label}
               </p>
             </div>
@@ -45,12 +56,13 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className='relative flex-1 flex justify-center items-center xl:min-h-screen max-xl:py-40 bg-primary bg-hero bg-cover bg-center'>
+      <div className='relative flex-1 flex justify-center items-center '>
+        <div className='absolute top-0 ml-[70px] h-[685px] w-[730px] bg-gradient-to-b from-gr-top to-gr-bottom'>
         <img
           src={bigShoeImg}
           alt='shoe colletion'
-          width={610}
-          height={502}
+          width={550}
+          height={450}
           className='object-contain relative z-10'
         />
 
@@ -66,7 +78,8 @@ const Hero = () => {
             </div>
           ))}
         </div>
-      </div>
+        </div>
+      </div> */}
     </section>
   );
 };

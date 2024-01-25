@@ -51,7 +51,7 @@ const Hero = () => {
           alt='shoe colletion'
           width={440}
           height={480}
-          className='object-contain relative z-10 w-[330px] h-[350px] tab:w-[500px] tab:h-[550px] mt-16 tab:mt-8'
+          className='object-contain relative z-10 w-[250px] h-[280px] tab:w-[500px] tab:h-[550px] mt-16 tab:mt-8'
         />
         <div className='flex gap-2 ml:gap-4 absolute -bottom-[10%] left-auto max-sm:px-1'>
           {shoes.map((image, index) => (

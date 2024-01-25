@@ -26,7 +26,7 @@ export default {
         "coral-red": "#FF6452",
         "slate-gray": "#6D6D6D",
         "pale-blue": "#F5F6FF",
-        "black-": "1F1F1F",
+        "primary-b": "#1F1F1F",
         "white-400": "rgba(255, 255, 255, 0.80)",
         "gr-top": "#E39C71",
         "gr-bottom": "#F4C493",

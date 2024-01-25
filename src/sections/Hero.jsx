@@ -16,10 +16,10 @@ const Hero = () => {
       className='w-full flex flex-col-reverse lap:flex-row  min-h-screen lap:gap-20 max-container'
     >
       <div className="relative w-full lap:w-5/12 flex flex-col items-center justify-center lap:items-start lap:justify-start lap:pt-24 ">
-        <h1 className="mt-3 tab:mt-8 lap:mt-10 font-palanquin text-2xl tab:text-4xl lap:text-8xl font-bold text-black-primary">
+        <h1 className="mt-3 tab:mt-8 lap:mt-10 font-palanquin text-2xl tab:text-4xl lap:text-8xl font-bold text-primary-b">
           <span className="relative z-10 lap:bg-white lap:whitespace-nowrap rounded-xl lap:pr-8 lap:pb-3 ">Latest Trendsetters</span>
         </h1> 
-        <h2 className="font-palanquin text-xl tab:text-3xl lap:text-4xl lap:pt-10 font-bold text-black-primary">
+        <h2 className="font-palanquin text-xl tab:text-3xl lap:text-4xl lap:pt-10 font-bold text-primary-b">
           from <span className="text-coral-red">SneakerWave</span>
         </h2>
         <p className='font-montserrat text-slate-gray text-base lap:text-lg text-center lap:text-justify  leading-8 mt-3 tab:mt-6 mb-5 tab:mb-10 w-full'>
@@ -32,14 +32,14 @@ const Hero = () => {
               label='Learn more'
               backgroundColor='bg-white'
               borderColor='border-slate-gray'
-              textColor='text-black-primary'
+              textColor='text-primary-b'
               iconURL={arrow1}
           />
         </div>
         <div className='flex items-center justify-center lap:items-start lap:justify-start flex-wrap w-full mt-5 tab:mt-12 gap-5 tab:gap-[50px]'>
           {statistics.map((stat, index) => (
             <div key={index}>
-              <p className='text-xl tab:text-4xl text-center font-palanquin font-bold'>{stat.value}</p>
+              <p className='text-xl tab:text-4xl text-center text-primary-b font-palanquin font-bold'>{stat.value}</p>
               <p className='leading-7 font-montserrat text-slate-gray'>{stat.label}</p>
             </div>
           ))}

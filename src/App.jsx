@@ -7,7 +7,7 @@ const App = () => (
     <section className="px-[20px] mm:px-[20px]  ml:px-[20px]  tab:px-[48px]  lap:px-[58px]  desktop:px-[64px]">
       <Hero/>
     </section>
-    <section className="padding">
+    <section className="px-[20px] mm:px-[20px]  ml:px-[20px]  tab:px-[48px]  lap:px-[58px]  desktop:px-[64px]">
       <PopularProducts/>
     </section>
     <section className="padding">

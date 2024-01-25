@@ -17,7 +17,7 @@ const Nav = () => {
     }
 
     return (
-        <header className='px-[26px] mm:px-[30px]  ml:px-[34px]  tab:px-[48px]  lap:px-[58px]  desktop:px-[64px]  py-8 absolute z-10 w-full'>
+        <header className='px-[20px] mm:px-[20px]  ml:px-[20px]  tab:px-[48px]  lap:px-[58px]  desktop:px-[64px]  py-8 absolute z-10 w-full'>
             <nav className='flex justify-between items-center max-container'>   
                 <a href='/' className='flex font-bold font-montserrat leading-normal items-center text-base mm:text-lg lap:text-xl text-coral-red' >
                     <img src={ headerLogo } alt='logo' width={56} height={29} className='w-[50px] h-[25px] lap:w-[56px] lap:h-[29px] ' /> 
@@ -51,7 +51,7 @@ const Nav = () => {
 
 
                 <div className='hidden max-lg:block' onClick={toggleNav}>
-                    <img src={hamburger} alt='hamburger icon' width={25} height={25} className='h-[20px] w-[20px]' />
+                    <img src={hamburger} alt='hamburger icon' width={25} height={25} className='h-[20px] w-[20px] mr-1' />
                 </div>
 
                 {/* Navigation Links - shown/hidden based on isNavOpen state */}

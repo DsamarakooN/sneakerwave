@@ -13,60 +13,47 @@ const Hero = () => {
   return (
     <section
       id='home'
-      className='w-full mx-auto flex xl:flex-row flex-col justify-center min-h-screen gap-10 px-16'
-    > 
-      {/* <div className='relative xl:w-2/5 flex flex-col justify-center items-start w-full  max-xl:padding-x pt-24 ml-0'>
-
-        <span className='mt-2 font-palanquin text-8xl  font-bold xl:bg-white text-center rounded-3xl xl:whitespace-nowrap relative z-10 pr-5 pt-[25px] pb-[41px]'>
-        Latest Trendsetters          
-        </span>
-        <span className='font-palanquin text-4xl align-middle font-bold'>        
-          from <span className='text-coral-red inline-block mt-0'>SneakerWave</span>
-        </span>
-        <p className='font-montserrat text-slate-gray text-lg text-justify leading-8 mt-6 mb-14 '>
+      className='w-full flex flex-col-reverse lap:flex-row  min-h-screen lap:gap-20 max-container'
+    >
+      <div className="relative w-full lap:w-5/12 flex flex-col items-center justify-center lap:items-start lap:justify-start lap:pt-24 ">
+        <h1 className="mt-3 tab:mt-8 lap:mt-10 font-palanquin text-2xl tab:text-4xl lap:text-8xl font-bold text-black-primary">
+          <span className="relative z-10 lap:bg-white lap:whitespace-nowrap rounded-xl lap:pr-8 lap:pb-3 ">Latest Trendsetters</span>
+        </h1> 
+        <h2 className="font-palanquin text-xl tab:text-3xl lap:text-4xl lap:pt-10 font-bold text-black-primary">
+          from <span className="text-coral-red">SneakerWave</span>
+        </h2>
+        <p className='font-montserrat text-slate-gray text-base lap:text-lg text-center lap:text-justify  leading-8 mt-3 tab:mt-6 mb-5 tab:mb-10 w-full'>
         Embrace the latest in style, comfort, and innovation. Our fresh collection offers the best in footwear, 
         tailored for your dynamic lifestyle.
         </p>
-
-        <div class="grid grid-cols-2 gap-4">
-          <div>
-            <Button label='Shop Now' iconURL={arrowRight} />
-          </div>
-          <div>
+        <div className="flex flex-row gap-4">
+          <Button label='Shop now' iconURL={arrowRight} />
           <Button
-            label='Learn more'
-            backgroundColor='bg-white'
-            textColor='text-black-400'
-            iconURL={arrow1}
+              label='Learn more'
+              backgroundColor='bg-white'
+              borderColor='border-slate-gray'
+              textColor='text-black-primary'
+              iconURL={arrow1}
           />
-          </div>
         </div>
-
-        
-
-        <div className='flex justify-start items-start flex-wrap w-full mt-10 gap-14'>
+        <div className='flex items-center justify-center lap:items-start lap:justify-start flex-wrap w-full mt-5 tab:mt-12 gap-5 tab:gap-[50px]'>
           {statistics.map((stat, index) => (
             <div key={index}>
-              <p className='text-[39px] font-palanquin font-bold'>{stat.value}</p>
-              <p className='text-lg leading-7 font-montserrat text-slate-gray'>
-                {stat.label}
-              </p>
+              <p className='text-xl tab:text-4xl text-center font-palanquin font-bold'>{stat.value}</p>
+              <p className='leading-7 font-montserrat text-slate-gray'>{stat.label}</p>
             </div>
           ))}
         </div>
       </div>
-
-      <div className='relative flex-1 flex justify-center items-center '>
-        <div className='absolute top-0 ml-[70px] h-[685px] w-[730px] bg-gradient-to-b from-gr-top to-gr-bottom'>
+      <div className="relative flex-1 flex justify-center items-center bg-primary bg-hero bg-cover bg-center mb-10 tab:w-full tab:h-screen lap:w-[620px] lap:h-[650px] rounded-b-xl">
         <img
           src={bigShoeImg}
           alt='shoe colletion'
-          width={550}
-          height={450}
-          className='object-contain relative z-10'
+          width={440}
+          height={480}
+          className='object-contain relative z-10 w-[330px] h-[350px] tab:w-[500px] tab:h-[550px] mt-16 tab:mt-8'
         />
-
-        <div className='flex sm:gap-6 gap-4 absolute -bottom-[5%] sm:left-[10%] max-sm:px-6 max-h-96'>
+        <div className='flex gap-2 ml:gap-4 absolute -bottom-[10%] left-auto max-sm:px-1'>
           {shoes.map((image, index) => (
             <div key={index}>
               <ShoeCard
@@ -78,8 +65,7 @@ const Hero = () => {
             </div>
           ))}
         </div>
-        </div>
-      </div> */}
+      </div>
     </section>
   );
 };

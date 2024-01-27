@@ -30,6 +30,7 @@ export default {
         "white-400": "rgba(255, 255, 255, 0.80)",
         "gr-top": "#E39C71",
         "gr-bottom": "#F4C493",
+        "btn-hov": "#D12613",
       },
       boxShadow: {
         '3xl': '0 10px 40px rgba(0, 0, 0, 0.1)'

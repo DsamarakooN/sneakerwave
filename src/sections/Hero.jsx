@@ -19,7 +19,7 @@ const Hero = () => {
         <h1 className="mt-3 tab:mt-8 lap:mt-10 font-palanquin text-2xl tab:text-4xl lap:text-8xl font-bold text-primary-b">
           <span className="relative z-10 lap:bg-white lap:whitespace-nowrap rounded-xl lap:pr-8 lap:pb-3 ">Latest Trendsetters</span>
         </h1> 
-        <h2 className="font-palanquin text-xl tab:text-3xl lap:text-4xl lap:pt-10 font-bold text-primary-b">
+        <h2 className="font-palanquin text-xl tab:text-3xl lap:text-4xl lap:pt-12 font-bold text-primary-b">
           from <span className="text-coral-red">SneakerWave</span>
         </h2>
         <p className='font-montserrat text-slate-gray text-base lap:text-lg text-center lap:text-justify  leading-8 mt-3 tab:mt-6 mb-5 tab:mb-10 w-full'>

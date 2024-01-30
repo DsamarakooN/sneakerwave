@@ -1,5 +1,9 @@
 import { facebook, instagram, shieldTick, support, truckFast, twitter } from "../assets/icons";
 import { bigShoe1, bigShoe2, bigShoe3, bigShoe4, customer1, customer2, shoe4, shoe5, shoe6, shoe7, thumbnailShoe1, thumbnailShoe2, thumbnailShoe3, thumbnailShoe4 } from "../assets/images";
+import { shoe11, shoe12, shoe13, shoe14, shoe15, shoe16 } from "../assets/images";
+import { shoe21, shoe22, shoe23, shoe24, shoe25, shoe26 } from "../assets/images";
+import { shoe31, shoe32, shoe33, shoe34, shoe35, shoe36 } from "../assets/images";
+import { shoe41, shoe42, shoe43, shoe44, shoe45, shoe46 } from "../assets/images";
 
 export const navLinks = [
     { href: "#home", label: "Home" },
@@ -36,24 +40,60 @@ export const statistics = [
 
 export const products = [
     {
-        imgURL: shoe4,
-        name: "Nike Air Jordan-01",
-        price: "$200.20",
+        imgURL1: shoe11,
+        imgURL2: shoe12,
+        imgURL3: shoe13,
+        imgURL4: shoe14,
+        imgURL5: shoe15,
+        imgURL6: shoe16,
+        name: "Adidas: ultimashow shoes",
+        rating: 4.5,
+        sold: 26,
+        colors: 4,
+        price: "20,999",
+        quantity: 106,
     },
     {
-        imgURL: shoe5,
-        name: "Nike Air Jordan-10",
-        price: "$210.20",
+        imgURL1: shoe21,
+        imgURL2: shoe22,
+        imgURL3: shoe23,
+        imgURL4: shoe24,
+        imgURL5: shoe25,
+        imgURL6: shoe26,
+        name: "Nike: Zoom Vomero 5",
+        rating: 5.0,
+        sold: 143,
+        colors: 7,
+        price: "35,999",
+        quantity: 13,
     },
     {
-        imgURL: shoe6,
-        name: "Nike Air Jordan-100",
-        price: "$220.20",
+        imgURL1: shoe31,
+        imgURL2: shoe32,
+        imgURL3: shoe33,
+        imgURL4: shoe34,
+        imgURL5: shoe35,
+        imgURL6: shoe36,
+        name: "Puma: Future Rider Camo",
+        rating: 4.5,
+        sold: 30,
+        colors: 2,
+        price: "20,999",
+        quantity: 96,
     },
     {
-        imgURL: shoe7,
-        name: "Nike Air Jordan-001",
-        price: "$230.20",
+        imgURL1: shoe41,
+        imgURL2: shoe42,
+        imgURL3: shoe43,
+        imgURL4: shoe44,
+        imgURL5: shoe45,
+        imgURL6: shoe46,
+        name: "New balance: 990v6",
+        rating: 4.5,
+        sold: 67,
+        colors: 2,
+        price: "24,999",
+        quantity: 14,
     },
 ];
 

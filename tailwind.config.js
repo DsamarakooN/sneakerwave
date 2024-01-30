@@ -33,7 +33,8 @@ export default {
         "btn-hov": "#D12613",
       },
       boxShadow: {
-        '3xl': '0 10px 40px rgba(0, 0, 0, 0.1)'
+        '3xl': '0 10px 40px rgba(0, 0, 0, 0.1)',
+        'custom-shadow': '0 10px 14px rgba(0, 0, 0, 0.25)',
       },
       backgroundImage: {
         'hero': "url('assets/images/collection-background.svg')",

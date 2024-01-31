@@ -46,7 +46,7 @@ const Nav = () => {
                 </div>
 
                 <div className='max-lg:hidden mr-8'>
-                    <img src={cart} alt='cart icon' width={25} height={25} />
+                    <img src={cart} alt='cart icon' width={20} height={20} />
                 </div>
 
 

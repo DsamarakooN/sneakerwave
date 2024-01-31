@@ -56,11 +56,10 @@ const PopularProductCard = ({ imgURL1, imgURL2, imgURL3, imgURL4, imgURL5, imgUR
           <p className='font-bold font-palanquin text-primary-b text-[13px] leading-normal'>
             LKR <span className='text-coral-red text-lg'>{price}</span>.00
           </p>
-          <span className={`${
+          <span className={`flex items-center text-[13px] font-montserrat font-medium px-2.5 py-0.5 rounded-lg  ${
             quantity < 15 ? "bg-red-100 text-red-800" : "bg-green-100 text-green-800" 
-            } 
-            text-[13px] font-montserrat font-medium px-2.5 py-0.5 rounded `
-            }>
+            }`}
+          >
               {quantity} in stock
           </span>
         </div>

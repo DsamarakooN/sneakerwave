@@ -5,7 +5,7 @@ const FeaturedBrand = () => {
     <section id='featuredbrand' className='max-container'>
         <div className='flex flex-col justify-start gap-5'>
             <div className="flex flex-row justify-center tab:justify-between items-center mt-12">
-                <h2 className='text-[20px] tab:text-[31px] text-white-400 font-palanquin font-bold'>
+                <h2 className='text-[20px] mm:text-[24px] tab:text-[31px] text-white-400 font-palanquin font-bold'>
                 <span className='text-coral-red'> SneakerWave</span>'s Featured Brand
                 </h2>
                 <a href='#' className='font-montserrat hidden tab:flex font-medium text-lg text-white-400 hover:underline hover:text-coral-red'>

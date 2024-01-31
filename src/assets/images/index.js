@@ -50,6 +50,7 @@ import thumbnailShoe1 from './thumbnail-shoe1.svg'
 import thumbnailShoe2 from './thumbnail-shoe2.svg'
 import thumbnailShoe3 from './thumbnail-shoe3.svg'
 import thumbnailShoe4 from './thumbnail-shoe4.svg'
+import thumbnailShoe5 from './thumbnail-shoe5.svg'
 
 import pumalogo from './pumalogo.svg'
 import adidaslogo from './adidaslogo.svg'
@@ -108,6 +109,7 @@ export {
     thumbnailShoe2,
     thumbnailShoe3,
     thumbnailShoe4,
+    thumbnailShoe5,
 
     pumalogo,
     adidaslogo,

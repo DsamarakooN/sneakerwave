@@ -27,7 +27,7 @@ const Hero = () => {
         Embrace the latest in style, comfort, and innovation. Our fresh collection offers the best in footwear, 
         tailored for your dynamic lifestyle.
         </p>
-        <div className="flex flex-row gap-4">
+        <div className="flex flex-row gap-1 ml:gap-4">
           <Button2 label='Shop now' iconURL={arrowRight} />
           <Button
               label='Learn more'

@@ -2,6 +2,7 @@ import { useState } from "react";
 
 import { shoes, statistics } from "../constants";
 import Button from "../components/Button";
+import Button2 from "../components/Button2";
 import ShoeCard from "../components/ShoeCard";
 import { bigShoe1 } from "../assets/images";
 import { arrowRight } from "../assets/icons";
@@ -22,12 +23,12 @@ const Hero = () => {
         <h2 className="font-palanquin text-xl tab:text-3xl lap:text-4xl lap:pt-12 font-bold text-primary-b">
           from <span className="text-coral-red">SneakerWave</span>
         </h2>
-        <p className='font-montserrat text-slate-gray text-base lap:text-lg text-center lap:text-justify  leading-8 mt-3 tab:mt-6 mb-5 tab:mb-10 w-full'>
+        <p className='font-montserrat text-slate-gray text-base lap:text-lg text-center lap:text-justify  leading-relaxed mt-3 tab:mt-6 mb-5 tab:mb-10 w-full'>
         Embrace the latest in style, comfort, and innovation. Our fresh collection offers the best in footwear, 
         tailored for your dynamic lifestyle.
         </p>
         <div className="flex flex-row gap-4">
-          <Button label='Shop now' iconURL={arrowRight} />
+          <Button2 label='Shop now' iconURL={arrowRight} />
           <Button
               label='Learn more'
               backgroundColor='bg-white'

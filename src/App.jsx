@@ -1,4 +1,4 @@
-import {CustomerReviews , Footer , Hero , PopularProducts , Services , SpecialOffer , Subscribe , SuperQuality} from './sections';
+import {CustomerReviews , Footer , Hero , PopularProducts , FeaturedBrand, Services , SpecialOffer , Subscribe , SuperQuality} from './sections';
 import Nav from './components/Nav';
 
 const App = () => (
@@ -9,6 +9,9 @@ const App = () => (
     </section>
     <section className="px-[20px] mm:px-[20px]  ml:px-[20px]  tab:px-[48px]  lap:px-[58px]  desktop:px-[64px]">
       <PopularProducts/>
+    </section>
+    <section className="bg-primary-b mt-12 px-[20px] mm:px-[20px]  ml:px-[20px]  tab:px-[48px]  lap:px-[58px]  desktop:px-[64px]">
+      <FeaturedBrand/>
     </section>
     <section className="padding">
       <SuperQuality/>

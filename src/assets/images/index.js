@@ -51,6 +51,11 @@ import thumbnailShoe2 from './thumbnail-shoe2.svg'
 import thumbnailShoe3 from './thumbnail-shoe3.svg'
 import thumbnailShoe4 from './thumbnail-shoe4.svg'
 
+import pumalogo from './pumalogo.svg'
+import adidaslogo from './adidaslogo.svg'
+import nikelogo from './nikelogo.svg'
+import newbalancelogo from './newbalancelogo.svg'
+
 export {
     bigShoe1,
     bigShoe2,
@@ -103,4 +108,9 @@ export {
     thumbnailShoe2,
     thumbnailShoe3,
     thumbnailShoe4,
+
+    pumalogo,
+    adidaslogo,
+    nikelogo,
+    newbalancelogo
 }

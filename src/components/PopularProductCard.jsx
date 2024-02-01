@@ -11,7 +11,7 @@ const PopularProductCard = ({ imgURL1, imgURL2, imgURL3, imgURL4, imgURL5, imgUR
   const [productImg, setProductImg] = useState(imgURL1);
 
   return (
-    <div className='flex flex-1 flex-col w-full shadow-custom-shadow items-center p-5 rounded-3xl'>
+    <div className='flex flex-1 flex-col w-full shadow-custom-shadow items-center p-5 rounded-3xl '>
       <img 
         src={productImg} 
         alt={name} 

@@ -1,5 +1,5 @@
 import { facebook, instagram, shieldTick, support, truckFast, twitter } from "../assets/icons";
-import { bigShoe1, bigShoe2, bigShoe3, bigShoe4, customer1, customer2, shoe4, shoe5, shoe6, shoe7, thumbnailShoe1, thumbnailShoe2, thumbnailShoe3, thumbnailShoe4 } from "../assets/images";
+import { bigShoe1, bigShoe2, bigShoe3, bigShoe4, customer1, customer2, customer3, thumbnailShoe1, thumbnailShoe2, thumbnailShoe3, thumbnailShoe4 } from "../assets/images";
 import { shoe11, shoe12, shoe13, shoe14, shoe15, shoe16 } from "../assets/images";
 import { shoe21, shoe22, shoe23, shoe24, shoe25, shoe26 } from "../assets/images";
 import { shoe31, shoe32, shoe33, shoe34, shoe35, shoe36 } from "../assets/images";
@@ -120,13 +120,19 @@ export const reviews = [
         imgURL: customer1,
         customerName: 'Morich Brown',
         rating: 4.5,
-        feedback: "The attention to detail and the quality of the product exceeded my expectations. Highly recommended!"
+        feedback: "Excellent service and fantastic products! The 10% discount on my first purchase was a pleasant surprise. The shoes fit perfectly and look great. SneakerWave has a superb collection, and I'll certainly be back for more."
     },
     {
         imgURL: customer2,
         customerName: 'Lota Mongeskar',
         rating: 4.5,
-        feedback: "The product not only met but exceeded my expectations. I'll definitely be a returning customer!"
+        feedback: "I recently purchased the 'Urban Glide' sneakers from SneakerWave, and I must say, they're a game-changer in comfort! As someone who's on their feet all day, these have been a blessing. Stylish, comfortable, and durable."
+    },
+    {
+        imgURL: customer3,
+        customerName: 'David Wilson',
+        rating: 4.5,
+        feedback: "The quality and style of SneakerWave's shoes are impressive! I bought the Nike AIR JORDAN 1 RETRO HIGH OG, and they are not only eye-catching but also incredibly comfortable. Definitely my go-to brand for sneakers now!"
     }
 ];
 

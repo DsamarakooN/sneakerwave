@@ -2,26 +2,28 @@ import { star } from "../assets/icons";
 
 const ReviewCard = ({ imgURL, customerName, rating, feedback }) => {
   return (
-    <div className='flex justify-center items-center flex-col'>
+    <div className='flex justify-center items-center flex-col shadow-custom-shadow h-auto lap:h-[600px]  p-10 rounded-3xl'>
       <img
         src={imgURL}
         alt='customer'
-        className='rounded-full object-cover w-[120px] h-[120px]'
+        className='rounded-full object-cover w-[150px] h-[150px]'
       />
-      <p className='mt-6 max-w-sm text-center info-text'>{feedback}</p>
-      <div className='mt-3 flex justify-center items-center gap-2.5'>
-        <img
-          src={star}
-          width={24}
-          height={24}
-          alt='rating star'
-          className='object-contain m-0'
-        />
-        <p className='text-xl font-montserrat text-slate-gray'>({rating})</p>
-      </div>
-      <h3 className='mt-1 font-palanquin text-3xl text-center font-bold'>
+      <h3 className='mt-1 font-palanquin text-[31px] text-center font-bold'>
         {customerName}
       </h3>
+      <div className="flex">
+        {Array(5).fill().map((_, index) => (
+          <img 
+            src={star} 
+            alt={`star ${index + 1}`} 
+            key={index} 
+            width={24}
+            height={24}
+            className='object-contain mx-0.5'
+          />
+        ))}
+      </div>
+      <p className='mt-6 max-w-sm text-center info-text'>{feedback}</p>
     </div>
   );
 };

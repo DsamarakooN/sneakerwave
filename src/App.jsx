@@ -22,7 +22,7 @@ const App = () => (
     <section className="bg-primary-b">
       <SpecialOffer/>
     </section>
-    <section className="bg-pale-blue padding">
+    <section className="px-[20px] mm:px-[20px]  ml:px-[20px]  tab:px-[48px]  lap:px-[58px]  desktop:px-[64px] py-10">
       <CustomerReviews/>
     </section>
     <section className="padding-x sm:py-32 py-16 w-full">

@@ -5,6 +5,7 @@ import bigShoe4 from './big-shoe4.svg'
 
 import customer1 from './customer1.jpeg'
 import customer2 from './customer2.svg'
+import customer3 from './customer3.svg'
 
 import footerLogo from './footer-logo.svg'
 import headerLogo from './logo.svg'
@@ -69,6 +70,7 @@ export {
 
     customer1,
     customer2,
+    customer3,
 
     footerLogo,
     headerLogo,

@@ -16,10 +16,10 @@ const App = () => (
     <section className="px-[20px] mm:px-[20px]  ml:px-[20px]  tab:px-[48px]  lap:px-[58px]  desktop:px-[64px]">
       <SuperQuality/>
     </section>
-    <section className="padding-x py-10">
+    <section className="px-[20px] mm:px-[20px]  ml:px-[20px]  tab:px-[48px]  lap:px-[58px]  desktop:px-[64px] py-10">
       <Services/>
     </section>
-    <section className="padding">
+    <section className="bg-primary-b">
       <SpecialOffer/>
     </section>
     <section className="bg-pale-blue padding">

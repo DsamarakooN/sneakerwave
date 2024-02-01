@@ -14,6 +14,7 @@ import search from './search.svg'
 import profile from './profile.svg'
 import cart from './cart.svg'
 import arrow1 from './arrow1.svg'
+import arrow2 from './arrow2.svg'
 import addtocart from './addtocart.svg'
 
 
@@ -34,5 +35,6 @@ export {
     profile,
     cart,
     arrow1,
+    arrow2,
     addtocart
 }

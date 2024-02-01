@@ -29,7 +29,7 @@ const Hero = () => {
         </p>
         <div className="flex flex-row gap-1 ml:gap-4">
           <Button2 label='Shop now' iconURL={arrowRight} />
-          <Button
+          <Button2
               label='Learn more'
               backgroundColor='bg-white'
               borderColor='border-slate-gray'

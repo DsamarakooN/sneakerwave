@@ -2,7 +2,7 @@
 
 - This is a website landing page built with React and Tailwind CSS. It uses npm as the package manager, Vite as the build tool, and is deployed on Vercel.
 
-![Website screenshot](/public/demo.png "Website screenshot")
+![Website screenshot](/public/demo2.png "Website screenshot")
 
 
 

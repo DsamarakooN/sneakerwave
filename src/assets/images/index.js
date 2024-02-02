@@ -61,6 +61,7 @@ import newbalancelogo from './newbalancelogo.svg'
 import dealimg1 from './deal-img-1.svg'
 import dealimg2 from './deal-img-2.svg'
 import dealimg3 from './deal-img-3.svg'
+import dealimg4 from './deal-img-4.svg'
 
 export {
     bigShoe1,
@@ -124,5 +125,6 @@ export {
 
     dealimg1,
     dealimg2,
-    dealimg3
+    dealimg3,
+    dealimg4
 }

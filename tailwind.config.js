@@ -31,6 +31,7 @@ export default {
         "gr-top": "#E39C71",
         "gr-bottom": "#F4C493",
         "btn-hov": "#E55A4A",
+        "offer-red": "#CA0200"
       },
       boxShadow: {
         '3xl': '0 10px 40px rgba(0, 0, 0, 0.1)',

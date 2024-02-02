@@ -7,10 +7,10 @@ const App = () => (
     <section className="px-[20px] mm:px-[20px]  ml:px-[20px]  tab:px-[48px]  lap:px-[58px]  desktop:px-[64px]">
       <Hero/>
     </section>
-    <section className="px-[20px] mm:px-[20px]  ml:px-[20px]  tab:px-[48px]  lap:px-[58px]  desktop:px-[64px]">
+    <section className="px-[20px] mm:px-[20px]  ml:px-[20px]  tab:px-[48px]  lap:px-[58px]  desktop:px-[64px] py-10">
       <PopularProducts/>
     </section>
-    <section className="bg-primary-b mt-12 px-[20px] mm:px-[20px]  ml:px-[20px]  tab:px-[48px]  lap:px-[58px]  desktop:px-[64px]">
+    <section className="bg-primary-b my-10 px-[20px] mm:px-[20px]  ml:px-[20px]  tab:px-[48px]  lap:px-[58px]  desktop:px-[64px] ">
       <FeaturedBrand/>
     </section>
     <section className="px-[20px] mm:px-[20px]  ml:px-[20px]  tab:px-[48px]  lap:px-[58px]  desktop:px-[64px]">
@@ -19,16 +19,16 @@ const App = () => (
     <section className="px-[20px] mm:px-[20px]  ml:px-[20px]  tab:px-[48px]  lap:px-[58px]  desktop:px-[64px] py-10">
       <Services/>
     </section>
-    <section className="bg-primary-b">
+    <section className="bg-primary-b my-10">
       <SpecialOffer/>
     </section>
     <section className="px-[20px] mm:px-[20px]  ml:px-[20px]  tab:px-[48px]  lap:px-[58px]  desktop:px-[64px] py-10">
       <CustomerReviews/>
     </section>
-    <section className="padding-x sm:py-32 py-16 w-full">
+    <section className="px-[20px] mm:px-[20px]  ml:px-[20px]  tab:px-[48px]  lap:px-[58px]  desktop:px-[64px] py-0 tab:py-10">
       <Subscribe/>
     </section>
-    <section className="bg-black padding-x padding-t pb-8">
+    <section className="bg-black padding-x padding-t mt-12 ">
       <Footer/>
     </section>
   </main>

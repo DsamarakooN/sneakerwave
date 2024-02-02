@@ -11,9 +11,9 @@ const Footer = () => {
                 <img src={ headerLogo } alt='logo' width={56} height={29} /> 
                 SneakerWave
             </a>
-          <p className='mt-6 text-base leading-7 font-montserrat text-white-400 sm:max-w-sm'>
-            Get shoes ready for the new term at your nearest <span className='text-coral-red'>SneakerWave</span> store. Find
-            Your perfect Size In Store. Get Rewards
+          <p className='mt-6 text-base leading-7 font-montserrat text-white-400 text-justify sm:max-w-sm'>
+            Discover <span className='text-coral-red'>SneakerWave</span>  - where style meets innovation in footwear. 
+            Explore our exclusive collection of trendsetting sneakers crafted for the modern urbanite.
           </p>
           <div className='flex items-center gap-5 mt-8'>
             {socialMedia.map((icon) => (

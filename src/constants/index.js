@@ -141,9 +141,9 @@ export const footerLinks = [
     {
         title: "Products",
         links: [
-            { name: "Air Force 1", link: "/" },
-            { name: "Air Max 1", link: "/" },
-            { name: "Air Jordan 1", link: "/" },
+            { name: "Ultimashow shoes", link: "/" },
+            { name: "Zoom Vomero 5", link: "/" },
+            { name: "Future Rider Camo", link: "/" },
             { name: "Air Force 2", link: "/" },
             { name: "Nike Waffle Racer", link: "/" },
             { name: "Nike Cortez", link: "/" },
@@ -162,7 +162,7 @@ export const footerLinks = [
     {
         title: "Get in touch",
         links: [
-            { name: "customer@sneakerwave.com", link: "mailto:customer@sneakerwave.com" },
+            { name: "hello@sneakerwave.com", link: "mailto:customer@sneakerwave.com" },
             { name: "+9411664444", link: "tel:+9411664444" },
         ],
     },

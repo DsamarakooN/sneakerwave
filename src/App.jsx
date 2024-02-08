@@ -28,7 +28,7 @@ const App = () => (
     <section className="px-[20px] mm:px-[20px]  ml:px-[20px]  tab:px-[48px]  lap:px-[58px]  desktop:px-[64px] py-0 tab:py-10">
       <Subscribe/>
     </section>
-    <section className="bg-black padding-x padding-t mt-12 pb-10">
+    <section className="bg-black padding-x padding-t mt-12 pb-11">
       <Footer/>
     </section>
   </main>
